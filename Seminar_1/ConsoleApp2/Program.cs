@@ -4,10 +4,10 @@ a = 2, b = 10 -> нет
 a = 9, b = -3 -> да 
 a = -3 b = 9 -> нет */
 
-Console.Write("Введите первое целое число: ");
+Console.WriteLine("Введите первое целое число: ");
 int number = int.Parse(Console.ReadLine());
 
-Console.Write("Введите второе целое число: ");
+Console.WriteLine("Введите второе целое число: ");
 int number_2 = int.Parse(Console.ReadLine());
 
 int number_3 = number_2 * number_2;
