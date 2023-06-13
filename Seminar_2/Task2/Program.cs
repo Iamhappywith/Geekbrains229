@@ -11,10 +11,6 @@ int result = firstDigit * 10 + thirdDigit;
 Console.WriteLine(result);
 
 
-
-
-
-
 /*
 var string = thirdDigit.ToString();
 
