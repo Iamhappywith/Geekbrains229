@@ -6,7 +6,7 @@ int i = 1;
 bool not = true;
 
 Console.WriteLine("Введите число:");
-int num = Console.WriteLine(Console.ReadLine()); //Я нашёл этот код в интеренете, но не понял как он работает, в 9 строчке он выдаёт ошибку //
+int num = int.Parse(Console.ReadLine()); //Я нашёл этот код в интеренете и изменил его, но не понял как он работает, //
 
 Console.WriteLine("Чётные числа от 1 до " + num);
 while (i <= num)
@@ -17,7 +17,6 @@ while (i <= num)
     not = false;
 }
  i++;
-}
 
 if (not)
 {
