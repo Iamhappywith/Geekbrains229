@@ -4,7 +4,7 @@ int number = new Random().Next(100, 1000);
 Console.WriteLine($"Рандомное число : {number}");
 
 int firstDigit = number / 100;
-int secondDigit = firstDigit / 10;
+//int secondDigit = firstDigit / 10;
 int thirdDigit = number % 10; 
 int result = firstDigit * 10 + thirdDigit;
 
