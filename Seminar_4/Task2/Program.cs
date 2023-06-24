@@ -14,7 +14,7 @@ for (int i = 1; i <= input_number; i++)
     Console.WriteLine($"Промежуточный результат {result}"); 
 }
 
-    Console.WriteLine($"Производная всех чисел от 1 до {input_number} равняется {result}");
+Console.WriteLine($"Производная всех чисел от 1 до {input_number} равняется {result}");
 
 /*
 Console.WriteLine("Введите число: ");
